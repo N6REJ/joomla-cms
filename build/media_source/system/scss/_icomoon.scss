@@ -1,31 +1,33 @@
 // IcoMoon Conversion
 $jicon-css-prefix:                 icon;
 
-[class^="#{$jicon-css-prefix}-joomla "],
-[class*=" #{$jicon-css-prefix}-joomla"]  {
-  font-family: 'Font Awesome 5 Brands';
+[class^="#{$jicon-css-prefix}-"],
+[class*=" #{$jicon-css-prefix}-"] {
+  display: inline-block;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  speak: none;
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+[class^="#{$jicon-css-prefix}b-"],
+[class*=" #{$jicon-css-prefix}b-"] {
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
-[class^="#{$jicon-css-prefix}-"]:not(.input-group-text),
-[class*=" #{$jicon-css-prefix}-"]:not(.input-group-text) {
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  line-height: 1rem;
-}
-[class^="#{$jicon-css-prefix}-"]::before,
-[class*=" #{$jicon-css-prefix}-"]::before {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  speak: none;
-  font-weight: 900;
-}
-[class^="#{$jicon-css-prefix}-"].disabled,
-[class*=" #{$jicon-css-prefix}-"].disabled,
-[class^="fa-"].disabled,
-[class*=" fa-"].disabled {
-  font-weight: 400;
+[class^="#{$jicon-css-prefix}-"],
+[class*=" #{$jicon-css-prefix}-"],
+[class^="fa-"],
+[class*=" fa-"] {
+  .disabled {
+    font-weight: 400;
+  }
 }
 
 .#{$jicon-css-prefix}-generic::before {
