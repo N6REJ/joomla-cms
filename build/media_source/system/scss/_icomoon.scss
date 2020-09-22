@@ -1,6 +1,12 @@
 // IcoMoon Conversion
 $jicon-css-prefix:                 icon;
 
+[class^="#{$jicon-css-prefix}-joomla "],
+[class*=" #{$jicon-css-prefix}-joomla"]  {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
 [class^="#{$jicon-css-prefix}-"]:not(.input-group-text),
 [class*=" #{$jicon-css-prefix}-"]:not(.input-group-text) {
   display: inline-block;
@@ -24,10 +30,6 @@ $jicon-css-prefix:                 icon;
 
 .#{$jicon-css-prefix}-generic::before {
   @extend .#{$fa-css-prefix}-dot-circle:before;
-}
-
-.#{$jicon-css-prefix}-joomla {
-  @extend .fab;
 }
 
 .#{$jicon-css-prefix}-joomla::before {

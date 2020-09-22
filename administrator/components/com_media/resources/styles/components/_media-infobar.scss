@@ -55,7 +55,8 @@
   }
 }
 
-.placeholder-icon.fas {
+.placeholder-icon.fas,
+.placeholder-icon.#{$jicon-css-prefix} {
   display: block;
   width: 4rem;
   height: 4rem;

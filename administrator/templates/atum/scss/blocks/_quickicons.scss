@@ -17,7 +17,8 @@
 
     .fas,
     .fab,
-    .#{$jicon-css-prefix} {
+    [class^="#{$jicon-css-prefix}- "],
+    [class*=" #{$jicon-css-prefix}-"] {
       margin: 0 auto;
       font-size: $quickicon-icon-size;
       color: transparent;
@@ -37,7 +38,8 @@
 
       .fas,
       .fab,
-      .#{$jicon-css-prefix} {
+      [class^="#{$jicon-css-prefix}- "],
+      [class*=" #{$jicon-css-prefix}-"] {
         color: transparent;
         background: linear-gradient(var(--atum-bg-light), $white);
         background-clip: text;
@@ -145,7 +147,8 @@
 
         &.big .fas,
         &.big .fab,
-        &.big .#{$jicon-css-prefix} {
+        &.big [class^="#{$jicon-css-prefix}- "],
+        &.big [class*=" #{$jicon-css-prefix}-"] {
           font-size: $quickicon-icon-size-big;
         }
       }
@@ -181,7 +184,8 @@
 
       .fas,
       .fab,
-      .#{$jicon-css-prefix} {
+      [class^="#{$jicon-css-prefix}- "],
+      [class*=" #{$jicon-css-prefix}-"]  {
         color: $danger-txt;
       }
 
@@ -191,7 +195,8 @@
 
         .fas::before,
         .fab::before,
-        .#{$jicon-css-prefix}::before {
+        [class^="#{$jicon-css-prefix}- "]::before,
+        [class*=" #{$jicon-css-prefix}-"]::before {
           color: var(--white);
         }
       }
@@ -203,7 +208,8 @@
 
       .fas,
       .fab,
-      .#{$jicon-css-prefix} {
+      [class^="#{$jicon-css-prefix}- "],
+      [class*=" #{$jicon-css-prefix}-"] {
         color: transparent;
         background: linear-gradient(var(--success), #159c1e);
         background-clip: text;
@@ -215,7 +221,8 @@
 
         .fas::before,
         .fab::before,
-        .#{$jicon-css-prefix}::before {
+        [class^="#{$jicon-css-prefix}- "]::before,
+        [class*=" #{$jicon-css-prefix}-"]::before {
           color: transparent;
           background: linear-gradient($white, lighten($green, 40%));
           background-clip: text;

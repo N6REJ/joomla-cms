@@ -178,7 +178,8 @@
 
   .fas,
   .fab,
-  .#{$jicon-css-prefix} {
+  [class^="#{$jicon-css-prefix}- "],
+  [class*=" #{$jicon-css-prefix}-"] {
     font-size: 1.5rem;
     vertical-align: middle;
     transition: all .2s ease-in-out;
@@ -241,7 +242,8 @@
       }
 
       .fas,
-      .#{$jicon-css-prefix} {
+      [class^="#{$jicon-css-prefix}- "],
+      [class*=" #{$jicon-css-prefix}-"] {
         [dir=ltr] & {
           margin-right: $dropdown-item-padding-x;
         }
@@ -262,7 +264,8 @@
     }
 
     .fas,
-    .#{$jicon-css-prefix} {
+    [class^="#{$jicon-css-prefix}- "],
+    [class*=" #{$jicon-css-prefix}-"] {
       [dir=ltr] & {
         margin-right: $dropdown-item-padding-x;
       }
@@ -332,7 +335,8 @@
       border: 0;
 
       .fas,
-      #{$jicon-css-prefix} {
+      [class^="#{$jicon-css-prefix}- "],
+      [class*=" #{$jicon-css-prefix}-"] {
         margin: auto;
       }
 
