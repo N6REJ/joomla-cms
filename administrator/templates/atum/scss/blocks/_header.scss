@@ -199,7 +199,8 @@
     }
   }
 
-  .fa-angle-down {
+  .fa-angle-down,
+  .#{$jicon-css-prefix}-angle-down {
     position: absolute;
     top: .9rem;
 
@@ -239,7 +240,8 @@
         text-align: right;
       }
 
-      .fas {
+      .fas,
+      .#{$jicon-css-prefix} {
         [dir=ltr] & {
           margin-right: $dropdown-item-padding-x;
         }
@@ -259,7 +261,8 @@
       text-align: right;
     }
 
-    .fas {
+    .fas,
+    .#{$jicon-css-prefix} {
       [dir=ltr] & {
         margin-right: $dropdown-item-padding-x;
       }
@@ -328,7 +331,8 @@
       background-color: var(--atum-bg-dark);
       border: 0;
 
-      .fas {
+      .fas,
+      #{$jicon-css-prefix} {
         margin: auto;
       }
 
@@ -406,7 +410,8 @@
       }
     }
 
-    .fa-angle-down {
+    .fa-angle-down,
+    .#{$jicon-css-prefix}-angle-down {
       transform: rotate(180deg);
     }
   }
