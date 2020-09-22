@@ -70,7 +70,7 @@
 
     .inactive .fas,
     .inactive .fab,
-    .inactive [class^=icon-] {
+    .inactive [class^=#{$jicon-css-prefix}-] {
       color: $gray-400;
     }
 

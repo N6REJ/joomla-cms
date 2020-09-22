@@ -16,7 +16,8 @@
 
 
     .fas,
-    .fab {
+    .fab,
+    .#{$jicon-css-prefix} {
       margin: 0 auto;
       font-size: $quickicon-icon-size;
       color: transparent;
@@ -35,7 +36,8 @@
       background: var(--atum-link-color);
 
       .fas,
-      .fab {
+      .fab,
+      .#{$jicon-css-prefix} {
         color: transparent;
         background: linear-gradient(var(--atum-bg-light), $white);
         background-clip: text;
@@ -142,7 +144,8 @@
         margin: .8rem auto 0;
 
         &.big .fas,
-        &.big .fab {
+        &.big .fab,
+        &.big .#{$jicon-css-prefix} {
           font-size: $quickicon-icon-size-big;
         }
       }
@@ -177,7 +180,8 @@
       border: 1px solid lighten($danger-txt, 30%);
 
       .fas,
-      .fab {
+      .fab,
+      .#{$jicon-css-prefix} {
         color: $danger-txt;
       }
 
@@ -186,7 +190,8 @@
         background: var(--danger);
 
         .fas::before,
-        .fab::before {
+        .fab::before,
+        .#{$jicon-css-prefix}::before {
           color: var(--white);
         }
       }
@@ -197,7 +202,8 @@
       border: 1px solid lighten($success-txt, 20%);
 
       .fas,
-      .fab {
+      .fab,
+      .#{$jicon-css-prefix} {
         color: transparent;
         background: linear-gradient(var(--success), #159c1e);
         background-clip: text;
@@ -208,7 +214,8 @@
         background: var(--success);
 
         .fas::before,
-        .fab::before {
+        .fab::before,
+        .#{$jicon-css-prefix}::before {
           color: transparent;
           background: linear-gradient($white, lighten($green, 40%));
           background-clip: text;

@@ -1,14 +1,14 @@
 // Icons
 
-.icon-back::before {
+.#{$jicon-css-prefix}-back::before {
   content: "\e008";
 }
 
-.icon-crop::before {
+.#{$jicon-css-prefix}-crop::before {
   content: "\f125";
 }
 
-.icon-white {
+.#{$jicon-css-prefix}-white {
   color: $white;
 }
 
@@ -18,8 +18,8 @@
   background-color: transparent;
   border: 0;
 
-  [class^="icon-"],
-  [class*=" icon-"],
+  [class^="#{$jicon-css-prefix}-"],
+  [class*=" #{$jicon-css-prefix}-"],
   [class^="fa-"],
   [class*=" fa-"] {
     width: 26px;
@@ -31,25 +31,25 @@
     border-radius: 50%;
   }
 
-  .icon-publish,
+  .#{$jicon-css-prefix}-publish,
   .fa-check {
     color: var(--success);
     border-color: var(--success);
   }
 
-  .icon-color-featured,
+  .#{$jicon-css-prefix}-color-featured,
   .fas.fa-star.featured {
     color: $state-warning-bg;
     border-color: $state-warning-bg;
   }
 
-  .icon-archive,
+  .#{$jicon-css-prefix}-archive,
   .fa-folder {
     color: var(--atum-text-dark);
     border-color: $gray-700;
   }
 
-  .icon-checkedout,
+  .#{$jicon-css-prefix}-checkedout,
   .fa-lock {
     width: auto;
     height: auto;
@@ -67,27 +67,27 @@
     opacity: 1;
   }
 
-  &.disabled .icon-home,
+  &.disabled .#{$jicon-css-prefix}-home,
   &.disabled .fas.fa-home {
     color: $state-warning-bg;
     border-color: $state-warning-bg;
   }
 }
 
-.icon-joomla::before {
+.#{$jicon-css-prefix}-joomla::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f1aa";
 }
 
-.icon-shield-alt::before {
+.#{$jicon-css-prefix}-shield-alt::before {
   content: "\f3ed";
 }
 
-.icon-address-book::before {
+.#{$jicon-css-prefix}-address-book::before {
   content: "\f2b9";
 }
 
-.icon-images::before {
+.#{$jicon-css-prefix}-images::before {
   content: "\f302";
 }
 
@@ -95,30 +95,30 @@
   content: "\f05a";
 }
 
-.icon-paint-brush::before {
+.#{$jicon-css-prefix}-paint-brush::before {
   content: "\f1fc";
 }
 
-.icon-language::before {
+.#{$jicon-css-prefix}-language::before {
   content: "\f1ab";
 }
 
-.icon-rss::before {
+.#{$jicon-css-prefix}-rss::before {
   content: "\f09e";
 }
 
-.icon-map-signs::before {
+.#{$jicon-css-prefix}-map-signs::before {
   content: "\f277";
 }
 
-.icon-envelope-open-text::before {
+.#{$jicon-css-prefix}-envelope-open-text::before {
   content: "\f658";
 }
 
-.icon-users-cog::before {
+.#{$jicon-css-prefix}-users-cog::before {
   content: "\f509";
 }
 
-.icon-user-lock::before {
+.#{$jicon-css-prefix}-user-lock::before {
   content: "\f502";
 }

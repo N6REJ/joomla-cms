@@ -55,9 +55,9 @@
   }
 
   .btn.btn-danger [class*=" fa-"],
-  .btn.btn-danger [class*=" icon-"],
+  .btn.btn-danger [class*=" #{$jicon-css-prefix}-"],
   .btn.btn-danger [class^=fa-],
-  .btn.btn-danger [class^=icon-],
+  .btn.btn-danger [class^=#{$jicon-css-prefix}-],
   .btn.btn-danger span {
     display: inline-block;
     width: 2.375rem;
@@ -70,9 +70,9 @@
   }
 
   .btn.btn-success [class*=" fa-"],
-  .btn.btn-success [class*=" icon-"],
+  .btn.btn-success [class*=" #{$jicon-css-prefix}-"],
   .btn.btn-success [class^=fa-],
-  .btn.btn-success [class^=icon-],
+  .btn.btn-success [class^=#{$jicon-css-prefix}-],
   .btn.btn-success span {
     display: inline-block;
     width: 2.375rem;

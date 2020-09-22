@@ -205,17 +205,17 @@ caption {
 }
 
 .fa-eye,
-.icon-eye-open,
-.icon-eye {
+.#{$jicon-css-prefix}-eye-open,
+.#{$jicon-css-prefix}-eye {
   font-family: "Font Awesome 5 Free";
   cursor: pointer;
   content: "\f06e";
 }
 
 .fa-eye-slash,
-.icon-eye-close,
-.icon-eye-blocked,
-.icon-eye-2::before {
+.#{$jicon-css-prefix}-eye-close,
+.#{$jicon-css-prefix}-eye-blocked,
+.#{$jicon-css-prefix}-eye-2::before {
   font-family: "Font Awesome 5 Free";
   cursor: pointer;
   content: "\f070";

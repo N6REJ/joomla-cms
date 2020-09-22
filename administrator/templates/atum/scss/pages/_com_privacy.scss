@@ -1,18 +1,18 @@
 // com-privacy
 
 .tbody-icon {
-  .icon-download,
+  .#{$jicon-css-prefix}-download,
   .fas fa-download {
     color: var(--success);
     border-color: var(--success);
   }
 
-  .icon-mail {
+  .#{$jicon-css-prefix}-mail {
     color: var(--primary);
     border-color: var(--primary);
   }
 
-  .icon-delete,
+  .#{$jicon-css-prefix}-delete,
   .fa-times {
     color: var(--danger);
     border-color: var(--danger);
