@@ -51,9 +51,9 @@
 
     > button {
       appearance: none;
-      border: 0;
-      background: transparent;
       font: inherit;
+      background: transparent;
+      border: 0;
     }
 
     @for $level from 2 through 10 {
@@ -87,9 +87,9 @@
 
     button {
       appearance: none;
-      border: 0;
-      background: transparent;
       font: inherit;
+      background: transparent;
+      border: 0;
       inline-size: 100%;
       text-align: start;
       cursor: pointer;
